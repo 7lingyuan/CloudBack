@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Icon/file.png</file>
+        <file>Icon/person center.png</file>
+        <file>Icon/translation list.png</file>
+        <file>translations/qt_zh_CN.qm</file>
+        <file>Icon/cloud45.png</file>
+    </qresource>
+</RCC>
