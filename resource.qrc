@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resource/Icon/cloud.png</file>
+        <file>resource/Icon/extend.png</file>
+        <file>resource/Icon/file.png</file>
+        <file>resource/Icon/settings.png</file>
+        <file>resource/Icon/translation list.png</file>
+        <file>resource/style/style.qss</file>
+        <file>resource/translations/qt_zh_CN.qm</file>
+    </qresource>
+</RCC>
