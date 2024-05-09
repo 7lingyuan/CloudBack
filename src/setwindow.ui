@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SetWindow</class>
+ <widget class="QWidget" name="SetWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>712</width>
+    <height>572</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">/*设置QWidget样式*/
+QWidget#card_1{
+border-radius: 20px;
+background-color: white;
+}
+
+/*设置按钮样式*/
+QPushButton#pushButton_change_storage_path{
+border-radius: 3px;
+border: 1px solid rgb(204,204,204);
+background-color: white;
+}
+
+
+
+
+
+
+
+</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <widget class="QLabel" name="label_3">
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>   保存位置</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QWidget" name="card_1" native="true">
+     <property name="styleSheet">
+      <string notr="true">/*设置QWidget样式*/
+QWidget#card_1{
+border-radius: 10px;
+background-color: white;
+}
+
+/*设置输入框的样式*/
+QLineEdit#lineEdit_storage_path{
+border: 0px;
+}
+
+/*设置按钮样式*/
+QPushButton#pushButton_change_storage_path{
+border-radius: 3px;
+border: 1px solid rgb(204,204,204);
+background-color: white;
+}
+
+/*设置按钮悬浮时的样式*/
+QPushButton#pushButton_change_storage_path:hover{
+background-color: rgb(245,245,245);
+}
+
+/*设置按钮按压时的样式*/
+QPushButton#pushButton_change_storage_path:pressed{
+background-color: rgb(224,224,224);
+}
+
+</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_file_storge_info">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>36</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>11</pointsize>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>将接收的文件保存到</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLineEdit" name="lineEdit_storage_path">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+        <property name="placeholderText">
+         <string>使用QQ产生的临时数据，清理不影响正常使用。</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QPushButton" name="pushButton_change_storage_path">
+        <property name="maximumSize">
+         <size>
+          <width>90</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>更改存储路径</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

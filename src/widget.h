@@ -1,40 +1,34 @@
 #ifndef WIDGET_H
 #define WIDGET_H
 
-#include <QObject>
 #include <QWidget>
-#include "sidebaroptionsbutton.h"
-#include "sidebarwindow.h"
+#include <QButtonGroup>
 #include "filewindow.h"
+#include "setwindow.h"
 
-class Ui_page;
+QT_BEGIN_NAMESPACE
+namespace Ui
+{
+    class Widget;
+}
+QT_END_NAMESPACE
 
-class Widget : public SidebarWindow
+class Widget : public QWidget
 {
     Q_OBJECT
+
 public:
     Widget(QWidget* parent = nullptr);
     ~Widget();
 
 private:
-    void setupSidebar(Sidebar* parent);
-    void setupStackedWidget(QStackedWidget* parent);
+    // 设置stackWidget界面
+    void setupStackedWidget();
 
-    Ui_page* page_ui;
-
-    // 文件窗口
-    FileWindow* page_file;
-
-    QWidget* page_2;   // 第二页
-    QWidget* page_3;   // 第三页
-    QWidget* page_set; // 设置页
-
-    SidebarOptionsButton* btn_page_1; // 第一页按钮
-    SidebarOptionsButton* btn_page_2; // 第二页按钮
-    SidebarOptionsButton* btn_page_3; // 第三页按钮
-    QSpacerItem* verticalSpacer;      // 垂直弹簧
-    SidebarOptionsButton* btn_set;    // 设置按钮
-    SidebarOptionsButton* btn_expand; // 展开按钮
+private:
+    FileWindow* page_file;                      // 文件窗口
+    QWidget*    page_record;                    // 下载记录
+    SetWindow* page_set;                        // 设置页
+    Ui::Widget* ui;                             // ui界面
 };
-
 #endif // WIDGET_H
