@@ -139,7 +139,7 @@ color :  #ffd04b;
        </widget>
       </item>
       <item>
-       <widget class="QToolButton" name="toolButton_download_record">
+       <widget class="QToolButton" name="toolButton_download">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
           <horstretch>0</horstretch>

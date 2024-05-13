@@ -3,7 +3,8 @@
 
 #include <QWidget>
 #include <QFileDialog>
-#include "ClientConfig.hpp"
+
+
 
 namespace Ui
 {

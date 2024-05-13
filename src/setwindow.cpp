@@ -1,6 +1,8 @@
 #include "setwindow.h"
 #include "ui_setwindow.h"
 
+#include "ClientConfig.hpp"
+
 
 SetWindow::SetWindow(QWidget* parent)
     : QWidget(parent)

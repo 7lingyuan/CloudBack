@@ -6,5 +6,30 @@
         <file>resource/Icon/file_list.svg</file>
         <file>resource/Icon/download_record.svg</file>
         <file>resource/Icon/settings.svg</file>
+        <file>resource/Icon/folder.svg</file>
+        <file>resource/Icon/fileico/css.svg</file>
+        <file>resource/Icon/fileico/dll.svg</file>
+        <file>resource/Icon/fileico/doc.svg</file>
+        <file>resource/Icon/fileico/docx.svg</file>
+        <file>resource/Icon/fileico/exe.svg</file>
+        <file>resource/Icon/fileico/exel.svg</file>
+        <file>resource/Icon/fileico/file_icon.svg</file>
+        <file>resource/Icon/fileico/gif.svg</file>
+        <file>resource/Icon/fileico/html.svg</file>
+        <file>resource/Icon/fileico/jpg.svg</file>
+        <file>resource/Icon/fileico/mp4.svg</file>
+        <file>resource/Icon/fileico/pdf.svg</file>
+        <file>resource/Icon/fileico/png.svg</file>
+        <file>resource/Icon/fileico/ppt.svg</file>
+        <file>resource/Icon/fileico/pptx.svg</file>
+        <file>resource/Icon/fileico/svg.svg</file>
+        <file>resource/Icon/fileico/txt.svg</file>
+        <file>resource/Icon/fileico/zip.svg</file>
+        <file>resource/Icon/fileico/js.svg</file>
+        <file>resource/Icon/fileico/7z.svg</file>
+        <file>resource/Icon/fileico/ai.svg</file>
+        <file>resource/Icon/fileico/download.svg</file>
+        <file>resource/Icon/fileico/elx.svg</file>
+        <file>resource/Icon/fileico/mp3.svg</file>
     </qresource>
 </RCC>

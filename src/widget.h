@@ -5,6 +5,7 @@
 #include <QButtonGroup>
 #include "filewindow.h"
 #include "setwindow.h"
+#include "downloadwindow.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui
@@ -21,14 +22,18 @@ public:
     Widget(QWidget* parent = nullptr);
     ~Widget();
 
+private slots:
+
 private:
     // 设置stackWidget界面
     void setupStackedWidget();
 
+
+
 private:
-    FileWindow* page_file;                      // 文件窗口
-    QWidget*    page_record;                    // 下载记录
-    SetWindow* page_set;                        // 设置页
-    Ui::Widget* ui;                             // ui界面
+    FileWindow* page_file;                                  // 文件窗口
+    DownloadWindow* page_download;                          // 下载记录
+    SetWindow* page_set;                                    // 设置页
+    Ui::Widget* ui;                                         // ui界面
 };
 #endif // WIDGET_H
